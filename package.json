@@ -11,9 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "lo,dash": "^4.17.21"
+    "lodash": "^4.17.21"
   },
-  "engines": {
+  "engines": {git 
     "node": "14.x"
   }
 }
