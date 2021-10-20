@@ -85,6 +85,6 @@ app.get('/', (req, res)=>{
     res.sendFile(path.resolve(__dirname, './public/data.js'))
 })
 
-app.listen(5000, ()=>{
-    console.log('Server are listen on port 5000...')
+app.listen(80, ()=>{
+    console.log('Server are listen on port 80...')
 })
