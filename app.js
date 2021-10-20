@@ -85,6 +85,8 @@ app.get('/', (req, res)=>{
     res.sendFile(path.resolve(__dirname, './public/data.js'))
 })
 
-app.listen(80, ()=>{
-    console.log('Server are listen on port 80...')
-})
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, err => {
+    if(err) throw err;
+    console.log(`%c Server running on port ${PORT}`, "color: green");
+});
